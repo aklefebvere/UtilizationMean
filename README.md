@@ -14,7 +14,7 @@ This downloads the ```get-pip.py``` module and it runs the module with python to
 
 ### Python 2.7.X
 
-Since Python 2.7 is a deprecated version of python, there is a few packages we would need to install first in order for the apple script to work properly. Run these commands in terminal to setup python for the apple script.
+Since Python 2.7 is a deprecated version of python, there is a few packages we would need to install first. Run these commands in terminal:
 
 ```
 pip install pandas
@@ -26,16 +26,20 @@ pip install openpyxl
 
 ### Python 3.X.X
 
-If you are using the most up-to-date python version, you should only need to install one python package. Run this command in terminal to setup python for the apple script.
+If you are using the most up-to-date python version, you should only need to install one python package. Run this command in terminal.
 
 `pip install pandas`
 
-Once you have python setup, clone/install the repo with a CLI (If you have github CLI installed) or install the zip file directly from the website. Place the contents of the repo into a folder on the desktop (**the folder must be in the desktop in order for the apple script to work**).
+Once you have python setup, clone/install the repo with a CLI (If you have github CLI installed) or install the zip file directly from the website. Place the contents of the repo into a folder.
 
 ## Usage
 
-Run the apple script and you should be prompted with a window that is asking you for the location of the excel file you want to process through the python script. An example location could look something like this (the location of the excel file does not have to be in the same folder as the application):
+In a CLI, CD into the directory of where the .py module is located. To run the script, run the following command:
+```
+python ciscoutil.py
+```
+You will be prompted with a message asking for the location of the excel filel, paste the location of the excel file wrapped in quotes (ex: "/Users/adriann/Desktop/CiscoUtil/Delivery-sheet.xlsx") and press enter. If you are returned with the message "Done!" then it should have created an excel file in the same directory as the py module named "AVGUTIL <today's date>".
 
-<img src="https://i.gyazo.com/26b086b935e784e9375137b398d1881f.png" width=500>
 
-If everything goes well, when you click "Ok" it should create a new excel file in the application folder called "AVGUTIL <today's date>"
+
+
