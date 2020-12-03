@@ -40,6 +40,4 @@ python ciscoutil.py
 ```
 You will be prompted with a message asking for the location of the excel filel, paste the location of the excel file wrapped in quotes (ex: "/Users/adriann/Desktop/CiscoUtil/Delivery-sheet.xlsx") and press enter. If you are returned with the message "Done!" then it should have created an excel file in the same directory as the py module named "AVGUTIL <today's date>".
 
-
-
-
+<img src="https://i.gyazo.com/cebdf342e565706a554645faea41d131.png" width=700>
